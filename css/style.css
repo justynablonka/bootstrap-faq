@@ -1,0 +1,22 @@
+button:hover{
+    text-decoration: underline;
+    color: #808080;
+}
+
+.accordion-button {
+    color: #ee8208;
+    display: block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+.accordion-button[aria-expanded="true"] {
+    text-decoration: underline;
+    color: #ee8208;
+    background-color: #f7f7f7;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    border-color: rgba(0,0,0,.125);
+}
